@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04140CE21E1BCD3C006EB93B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04140CE11E1BCD3C006EB93B /* main.m */; };
+		04140CE51E1BCD3C006EB93B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04140CE41E1BCD3C006EB93B /* AppDelegate.m */; };
+		04140CE81E1BCD3C006EB93B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04140CE71E1BCD3C006EB93B /* ViewController.m */; };
+		04140CEB1E1BCD3C006EB93B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04140CE91E1BCD3C006EB93B /* Main.storyboard */; };
+		04140CED1E1BCD3C006EB93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04140CEC1E1BCD3C006EB93B /* Assets.xcassets */; };
+		04140CF01E1BCD3C006EB93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04140CEE1E1BCD3C006EB93B /* LaunchScreen.storyboard */; };
+		04140CF91E1BCD6C006EB93B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04140CF81E1BCD6C006EB93B /* SecondViewController.m */; };
+		04140CFC1E1BCE63006EB93B /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04140CFB1E1BCE63006EB93B /* SecondView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04140CDD1E1BCD3C006EB93B /* FollowTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FollowTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04140CE11E1BCD3C006EB93B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04140CE31E1BCD3C006EB93B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04140CE41E1BCD3C006EB93B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04140CE61E1BCD3C006EB93B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04140CE71E1BCD3C006EB93B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04140CEA1E1BCD3C006EB93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04140CEC1E1BCD3C006EB93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04140CEF1E1BCD3C006EB93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04140CF11E1BCD3C006EB93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04140CF71E1BCD6C006EB93B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		04140CF81E1BCD6C006EB93B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		04140CFA1E1BCE63006EB93B /* SecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
+		04140CFB1E1BCE63006EB93B /* SecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04140CDA1E1BCD3C006EB93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04140CD41E1BCD3C006EB93B = {
+			isa = PBXGroup;
+			children = (
+				04140CDF1E1BCD3C006EB93B /* FollowTouch */,
+				04140CDE1E1BCD3C006EB93B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04140CDE1E1BCD3C006EB93B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04140CDD1E1BCD3C006EB93B /* FollowTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04140CDF1E1BCD3C006EB93B /* FollowTouch */ = {
+			isa = PBXGroup;
+			children = (
+				04140CE31E1BCD3C006EB93B /* AppDelegate.h */,
+				04140CE41E1BCD3C006EB93B /* AppDelegate.m */,
+				04140CE61E1BCD3C006EB93B /* ViewController.h */,
+				04140CE71E1BCD3C006EB93B /* ViewController.m */,
+				04140CF71E1BCD6C006EB93B /* SecondViewController.h */,
+				04140CF81E1BCD6C006EB93B /* SecondViewController.m */,
+				04140CFA1E1BCE63006EB93B /* SecondView.h */,
+				04140CFB1E1BCE63006EB93B /* SecondView.m */,
+				04140CE91E1BCD3C006EB93B /* Main.storyboard */,
+				04140CEC1E1BCD3C006EB93B /* Assets.xcassets */,
+				04140CEE1E1BCD3C006EB93B /* LaunchScreen.storyboard */,
+				04140CF11E1BCD3C006EB93B /* Info.plist */,
+				04140CE01E1BCD3C006EB93B /* Supporting Files */,
+			);
+			path = FollowTouch;
+			sourceTree = "<group>";
+		};
+		04140CE01E1BCD3C006EB93B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04140CE11E1BCD3C006EB93B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04140CDC1E1BCD3C006EB93B /* FollowTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04140CF41E1BCD3C006EB93B /* Build configuration list for PBXNativeTarget "FollowTouch" */;
+			buildPhases = (
+				04140CD91E1BCD3C006EB93B /* Sources */,
+				04140CDA1E1BCD3C006EB93B /* Frameworks */,
+				04140CDB1E1BCD3C006EB93B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FollowTouch;
+			productName = FollowTouch;
+			productReference = 04140CDD1E1BCD3C006EB93B /* FollowTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04140CD51E1BCD3C006EB93B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CYC;
+				TargetAttributes = {
+					04140CDC1E1BCD3C006EB93B = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = V298BW98S4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04140CD81E1BCD3C006EB93B /* Build configuration list for PBXProject "FollowTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04140CD41E1BCD3C006EB93B;
+			productRefGroup = 04140CDE1E1BCD3C006EB93B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04140CDC1E1BCD3C006EB93B /* FollowTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04140CDB1E1BCD3C006EB93B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04140CF01E1BCD3C006EB93B /* LaunchScreen.storyboard in Resources */,
+				04140CED1E1BCD3C006EB93B /* Assets.xcassets in Resources */,
+				04140CEB1E1BCD3C006EB93B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04140CD91E1BCD3C006EB93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04140CF91E1BCD6C006EB93B /* SecondViewController.m in Sources */,
+				04140CE81E1BCD3C006EB93B /* ViewController.m in Sources */,
+				04140CE51E1BCD3C006EB93B /* AppDelegate.m in Sources */,
+				04140CFC1E1BCE63006EB93B /* SecondView.m in Sources */,
+				04140CE21E1BCD3C006EB93B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04140CE91E1BCD3C006EB93B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04140CEA1E1BCD3C006EB93B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04140CEE1E1BCD3C006EB93B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04140CEF1E1BCD3C006EB93B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04140CF21E1BCD3C006EB93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04140CF31E1BCD3C006EB93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04140CF51E1BCD3C006EB93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V298BW98S4;
+				INFOPLIST_FILE = FollowTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CYC.FollowTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04140CF61E1BCD3C006EB93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V298BW98S4;
+				INFOPLIST_FILE = FollowTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CYC.FollowTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04140CD81E1BCD3C006EB93B /* Build configuration list for PBXProject "FollowTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04140CF21E1BCD3C006EB93B /* Debug */,
+				04140CF31E1BCD3C006EB93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04140CF41E1BCD3C006EB93B /* Build configuration list for PBXNativeTarget "FollowTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04140CF51E1BCD3C006EB93B /* Debug */,
+				04140CF61E1BCD3C006EB93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04140CD51E1BCD3C006EB93B /* Project object */;
+}
